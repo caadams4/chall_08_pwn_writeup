@@ -32,9 +32,9 @@ Later down the program we see some arithmatic, lets see.
   
 So we know:
 
-  -No PIE. Addresses are constant. elf.sym.got.puts is puts location in the GOT and elf.sym.got.puts - obj.target will give us the offset. divide that by 8 to get the first scanf input.
+  -No PIE. Addresses are constant. elf.sym.got.puts is puts location in the GOT and elf.sym.got.puts - obj.target will give us the offset. divide that by 8 to get the second scanf input.
   
-  -We want to write the win function at the puts location. Win function address == 4198950 
+  -We want to write the win function at the puts location. Win function address == 4198950, the first scanf input
   
 Here we go
 
